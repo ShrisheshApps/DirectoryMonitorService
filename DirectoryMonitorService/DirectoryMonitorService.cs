@@ -45,7 +45,7 @@ namespace DirectoryMonitorService
         private void oTimer_Elapsed(object sender, ElapsedEventArgs e)
         {
             //logic to do something
-            File.AppendAllText(strLogFolderPath + "log1.txt", DateTime.Now.ToString()+ " put your logic here.\n");
+            File.AppendAllText(strLogFolderPath + "log1.txt", DateTime.Now.ToString()+ " put your logic here\n");
         }
 
         private void DirectoryChanged(object sender, FileSystemEventArgs e)
